@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/codegangsta/cli"
+	"github.com/urfave/cli"
 	"github.com/fatih/structs"
 
 	"github.com/yudai/gotty/app"
