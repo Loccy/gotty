@@ -2,7 +2,7 @@ OUTPUT_DIR = ./builds
 GIT_COMMIT = `git rev-parse HEAD`
 
 gotty: app/resource.go main.go app/*.go
-	godep go build
+	go build
 
 resource:  app/resource.go
 
