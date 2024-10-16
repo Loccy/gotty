@@ -151,15 +151,12 @@ $ gotty -w docker run -it --rm busybox
 You can build a binary using the following commands. Windows is not supported now.
 
 ```sh
-# Install tools
-go get github.com/jteeuwen/go-bindata/...
-go get github.com/tools/godep
-
 # Checkout hterm
 git submodule sync && git submodule update --init --recursive
 
-# Restore libraries in Godeps
-godep restore
+# add packages
+go get github.com/braintree/manners
+go get github.com/yudai/umutex
 
 # Build
 make
