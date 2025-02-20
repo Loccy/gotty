@@ -1,5 +1,7 @@
 module github.com/yudai/gotty
+
 go 1.18
+
 require (
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/elazarl/go-bindata-assetfs v1.0.1
@@ -10,10 +12,11 @@ require (
 	github.com/urfave/cli v1.22.15
 	github.com/yudai/hcl v0.0.0-20151013225006-5fa2393b3552
 )
+
 require (
 	github.com/Songmu/retry v0.1.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
-	github.com/creack/pty v1.1.9 // indirect
+	github.com/creack/pty v1.1.24 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/go-github v17.0.0+incompatible // indirect
 	github.com/google/go-github/v47 v47.1.0 // indirect
